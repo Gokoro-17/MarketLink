@@ -1,0 +1,2 @@
+﻿import { Link } from "react-router-dom";
+export default function HomePage() { return <main className="welcome"><div className="welcome__mark" aria-hidden="true">M</div><p className="eyebrow">A fresh start for local food</p><h1>Welcome to <span>MarketLink</span></h1><p className="welcome__copy">A place for growers and their communities to meet. Your marketplace is taking root.</p><Link className="welcome__link" to="/about">Explore the starter <span aria-hidden="true">→</span></Link></main>; }
